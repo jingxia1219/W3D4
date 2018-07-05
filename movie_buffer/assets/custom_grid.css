@@ -1,0 +1,23 @@
+/* PUT FLUID GRID CODE HERE */
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+
+.col-1 {
+  width:50%;
+}
+
+.col-2 {
+  width:50%
+}
+
+.ingredients-aside {
+  
+}
+
+@media all and (max-width: 900px) {
+  [class*='col'] {
+    width: 100%;
+  }
+}
